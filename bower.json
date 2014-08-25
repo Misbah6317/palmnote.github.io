@@ -1,0 +1,12 @@
+{
+  "name": "palm-note-website",
+  "version": "0.0.1",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "foundation": "~5.4.0",
+    "angularjs": "~1.2.23"
+  }
+}
