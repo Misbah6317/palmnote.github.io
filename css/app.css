@@ -50,13 +50,51 @@ body {
     font-size: 20px;
     font-size: 1.25rem; }
 
+.betaButton {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1.875rem;
+  color: #fff;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  text-shadow: none;
+  -webkit-text-shadow: none;
+  -moz-text-shadow: none;
+  border: none;
+  position: relative;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  top: 6.25rem;
+  font-size: 20px;
+  font-size: 1.25rem;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  -moz-webkit-animation-delay: 3s;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px; }
+  .betaButton:hover {
+    color: #fff;
+    background: rgba(218, 68, 83, 0.5); }
+
 .mainContent {
-  margin-top: 1.25rem;
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
-  padding: 1.25rem 0;
+  margin-top: 6.25rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
-  -moz-webkit-animation-delay: 2s; }
+  -moz-webkit-animation-delay: 2s;
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05); }
+  .mainContent p {
+    text-align: left; }
 
 .topMenu {
   list-style: none;
@@ -65,8 +103,6 @@ body {
     direction: rtl; }
     .topMenu.floatRight li {
       direction: ltr; }
-      .topMenu.floatRight li a {
-        color: #fff; }
   .topMenu li {
     display: inline-block;
     margin-right: 30px;
@@ -74,9 +110,13 @@ body {
     font-size: 1.125rem; }
     .topMenu li a {
       color: rgba(255, 255, 255, 0.5); }
+      .topMenu li a.active {
+        color: #fff; }
       .topMenu li a i {
         font-size: 24px;
         font-size: 1.5rem; }
+      .topMenu li a:hover {
+        color: #fff; }
 
 /*
   Shared Classes and utilities

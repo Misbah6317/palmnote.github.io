@@ -4,7 +4,6 @@
     <list default="true" id="087571b0-687d-44f3-b353-561b254d7b7d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.scss" afterPath="$PROJECT_DIR$/css/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,8 +33,8 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="945">
-                  <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+                <state vertical-scroll-proportion="-19.458334" vertical-offset="178" max-vertical-offset="945">
+                  <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -51,11 +50,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/app.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.58068967" vertical-offset="1409" max-vertical-offset="2490">
-                  <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+                <state vertical-scroll-proportion="0.2910345" vertical-offset="1304" max-vertical-offset="3015">
+                  <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -65,11 +64,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.64537156" vertical-offset="0" max-vertical-offset="945">
-                  <caret line="33" column="114" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
+                <state vertical-scroll-proportion="0.5697523" vertical-offset="178" max-vertical-offset="945">
+                  <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -92,8 +91,8 @@
       <list>
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/css/app.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/app.scss" />
       </list>
     </option>
   </component>
@@ -325,18 +324,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58068967" vertical-offset="1409" max-vertical-offset="2490">
-          <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+        <state vertical-scroll-proportion="-19.458334" vertical-offset="178" max-vertical-offset="945">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64537156" vertical-offset="0" max-vertical-offset="945">
-          <caret line="33" column="114" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
+        <state vertical-scroll-proportion="0.2910345" vertical-offset="1304" max-vertical-offset="3015">
+          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
           <folding />
         </state>
       </provider>
