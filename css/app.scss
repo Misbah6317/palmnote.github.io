@@ -26,6 +26,12 @@ $headingFontFamily : 'Ubuntu', Helvetica, Arial, sans-serif;
   font-size: calculateRem($size);
 }
 
+@mixin animationDelay($time) {
+  animation-delay: $time;
+  -webkit-animation-delay: $time;
+  -moz-webkit-animation-delay: $time;
+}
+
 @mixin opacity($opacity) {
   opacity: $opacity;
   $opacity-ie: $opacity * 100;
@@ -66,7 +72,7 @@ body {
 }
 
 .topHeader {
-  height:100%;
+  min-height:100%;
   background: linear-gradient(135deg, #505464, #404453);
   @include opacity(0.95);
   img {
@@ -80,20 +86,47 @@ body {
     margin:0 auto;
     margin-top: calculateRem(100px);
     @include  font-size(100px);
+    @include animationDelay(1s);
   }
   p {
     text-align: center;
     color:rgba(255,255,255,0.5);
+    @include animationDelay(1s);
     @include  font-size(20px);
   }
 }
 
 .mainContent {
-
+  margin-top:calculateRem(20px);
+  border-top:2px solid rgba(255,255,255,0.1);
+  padding:calculateRem(20px) 0;
+  @include animationDelay(2s);
 }
 
-.bottomFooter {
+.topMenu {
+  list-style: none;
+  padding: calculateRem(10px) 0;
+  &.floatRight {
+    direction: rtl;
+    li {
+      direction: ltr;
+      a {
+        color:#fff;
+      }
+    }
+  }
+  li {
+    display: inline-block;
+    margin-right:30px;
+    @include font-size(18px);
+    a {
+      color:rgba(255,255,255,0.5);
+      i {
+        @include font-size(24px);
 
+      }
+    }
+  }
 }
 
 /*

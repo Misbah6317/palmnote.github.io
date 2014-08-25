@@ -23,7 +23,7 @@ body {
   background-size: cover; }
 
 .topHeader {
-  height: 100%;
+  min-height: 100%;
   background: linear-gradient(135deg, #505464, #404453);
   opacity: 0.95;
   filter: alpha(opacity=95); }
@@ -37,12 +37,46 @@ body {
     margin: 0 auto;
     margin-top: 6.25rem;
     font-size: 100px;
-    font-size: 6.25rem; }
+    font-size: 6.25rem;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-webkit-animation-delay: 1s; }
   .topHeader p {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-webkit-animation-delay: 1s;
     font-size: 20px;
     font-size: 1.25rem; }
+
+.mainContent {
+  margin-top: 1.25rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 1.25rem 0;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-webkit-animation-delay: 2s; }
+
+.topMenu {
+  list-style: none;
+  padding: 0.625rem 0; }
+  .topMenu.floatRight {
+    direction: rtl; }
+    .topMenu.floatRight li {
+      direction: ltr; }
+      .topMenu.floatRight li a {
+        color: #fff; }
+  .topMenu li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 18px;
+    font-size: 1.125rem; }
+    .topMenu li a {
+      color: rgba(255, 255, 255, 0.5); }
+      .topMenu li a i {
+        font-size: 24px;
+        font-size: 1.5rem; }
 
 /*
   Shared Classes and utilities
