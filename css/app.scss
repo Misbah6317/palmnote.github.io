@@ -2,6 +2,8 @@
   Variables
 */
 
+$headingFontFamily : 'Ubuntu', Helvetica, Arial, sans-serif;
+
 /*
   Mixins, functions and other Sass utilities
 */
@@ -22,32 +24,6 @@
 @mixin font-size($size) {
   font-size: $size;
   font-size: calculateRem($size);
-}
-
-@mixin keyframes($animation-name) {
-  @-webkit-keyframes $animation-name {
-    @content;
-  }
-  @-moz-keyframes $animation-name {
-    @content;
-  }
-  @-ms-keyframes $animation-name {
-    @content;
-  }
-  @-o-keyframes $animation-name {
-    @content;
-  }
-  @keyframes $animation-name {
-    @content;
-  }
-}
-
-@mixin animation($str) {
-  -webkit-animation: #{$str};
-  -moz-animation: #{$str};
-  -ms-animation: #{$str};
-  -o-animation: #{$str};
-  animation: #{$str};
 }
 
 @mixin opacity($opacity) {
@@ -71,8 +47,45 @@
   Main Code
 */
 
-.topHeader {
+* {
+  -webkit-font-smoothing:antialiased;
+}
 
+html, body {
+  height:100%;
+  padding:0;
+  margin:0;
+}
+
+body {
+  background: url(../img/image1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.topHeader {
+  height:100%;
+  background: linear-gradient(135deg, #505464, #404453);
+  @include opacity(0.95);
+  img {
+    max-width: 100%;
+    margin:0 auto;
+  }
+  h1 {
+    font-family: $headingFontFamily;
+    color:#fff;
+    text-align: center;
+    margin:0 auto;
+    margin-top: calculateRem(100px);
+    @include  font-size(100px);
+  }
+  p {
+    text-align: center;
+    color:rgba(255,255,255,0.5);
+    @include  font-size(20px);
+  }
 }
 
 .mainContent {

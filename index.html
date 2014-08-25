@@ -4,17 +4,23 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Foundation 5</title>
+        <title>Palm Note</title>
         <!-- The main foundation css files -->
         <link rel="stylesheet" href="bower_components/foundation/css/normalize.css">
         <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
-        <!-- If you are using the gem version, you need this only -->
+        <!-- The main app css file auto-generated with Sass -->
         <link rel="stylesheet" href="css/app.css">
+        <!-- Modernizr main js file -->
         <script src="bower_components/foundation/js/vendor/modernizr.js"></script>
+        <!-- Google Fonds -->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
     </head>
-    <body>
-        <header class="topHeader">
-
+    <body ng-app="palmNoteWebsite">
+        <header class="topHeader" ng-controller="headerCtrl">
+            <section class="row">
+                <h1>Palm Note</h1>
+                <p> A minimalistic note taking app built for speed.</p>
+            </section>
         </header>
         <section class="mainContent">
 
